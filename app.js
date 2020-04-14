@@ -27,7 +27,7 @@ let cafeArray = [];
 let hallArray = [];
 let clubArray = [];
 
-let getRequest = $.get('https://hahaqadratric.com/webdesign2/lecture9/BigMusicClubConclomerateDates.json', function(data, status) {
+let getRequest = $.get('http://blmak.github.io/BigMusicClubConclomerateDates.json', function(data, status) {
   if(status === 'success'){
     data.forEach(function(event){
       if(event.venue === "Little Café"){
