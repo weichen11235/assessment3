@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  padding-bottom: 5px;
+}
+
+.eventContent{
+  padding-bottom: 15px;
+}
+#slider{
+  width: 800px;
+  height: 250px;
+  margin: 30px auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.content h4{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.content h1{
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+#content2{
+  display: none;
+}
+#content3{
+  display: none;
+}
+
+#progress{
+  background: url('img/bar95.png') no-repeat;
+  width: 95px;
+  height: 20px;
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+.item{
+  color: white;
+  text-decoration: none;
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 20px;
+}
+#item1{
+  left:4.5px;
+}
+#item2{
+  left: 43px;;
+}
+#item3{
+  left: 81px;
+}
+#dot{
+  display: block;
+  position: absolute;
+  top: 2.8px;
+  left:2px;
+}
+
+#accordion{
+  width: 800px;
+  margin: auto;
+  height: 380px;
+}
+
+

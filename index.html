@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="slider">
+    <div id="content1" class="content">
+      <h4>Upcoming Event at Little Café</h1>
+      <h1 id='event1'></h1>
+      <p id='time1'></p>
+    </div>
+    <div id="content2" class="content">
+      <h4>Upcoming Event at Big Hall</h1>
+      <h1 id='event2'></h1>
+      <p id='time2'></p>
+    </div>
+    <div id="content3" class="content">
+      <h4>Upcoming Event at Smokey Club</h1>
+      <h1 id='event3'></h1>
+      <p id='time3'></p>
+    </div>
+    <div id="progress">
+      <img src="img/dot15.png" id="dot" alt="">
+      <a href="#" id="item1" class="item" onclick="slide(1); return false;">1</a>
+      <a href="#" id="item2" class="item" onclick="slide(2); return false;">2</a>
+      <a href="#" id="item3" class="item" onclick="slide(3); return false;">3</a>
+      
+    </div>
+  </div>
+  <section id="accordion">
+    <h3 id='cafe'>Little Café</h3>
+    <div id='cafeEvent'></div>
+
+    <h3>Big Hall</h3>
+    <div id='hallEvent'></div>
+
+    <h3>Smokey Club</h3>
+    <div id='clubEvent'></div>
+  </section>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
